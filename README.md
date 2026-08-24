@@ -37,5 +37,18 @@ Primary dataset sourced from the **U.S. Energy Information Administration (EIA)*
 - Business insights & recommendations
 - Interactive dashboard development
 
+# Crude Oil Price Data Cleaning and Preprocessing (Python)
+
+This notebook prepares monthly WTI and Brent crude oil price data for exploratory analysis and time series forecasting.
+
+The preprocessing steps include:
+- inspecting the raw dataset
+- identifying missing and duplicate values
+- removing non-data rows
+- renaming variables
+- converting data types
+- checking chronological order
+- verifying monthly time-series continuity
+
 ## Project Status
-🚧 In Progress — Data collection completed, preprocessing next.
+🚧 In Progress — Data preprocessing completed, EDA next.
