@@ -1,8 +1,6 @@
 # Energy-Market-Analytics-Crude-Oil-Price-Forecasting
 End-to-end energy analytics independent project combining time series forecasting and Power BI dashboards to analyze crude oil market trends and insights.
 
-# Energy Market Analytics & Crude Oil Price Forecasting
-
 ## Project Overview
 This independent data analytics project explores historical crude oil price movements and energy market trends using official market data. The goal is to analyze long-term price behaviour, identify volatility patterns, and develop forecasting models to support data-driven business insights in the energy sector.
 
