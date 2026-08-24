@@ -40,11 +40,12 @@ Primary dataset sourced from the **U.S. Energy Information Administration (EIA)*
 # Crude Oil Price Data Cleaning and Preprocessing (Python)
 
 This notebook prepares monthly WTI and Brent crude oil price data for exploratory analysis and time series forecasting.
-"Crude-Oil_data_preprocessing_ipynb"
+
+"Crude_Oil_data_preprocessing_ipynb"
 
 The preprocessing steps include:
-- inspecting the raw dataset
-- identifying missing and duplicate values
+- inspecting the raw dataset "RWTC (USA crude oil price benchmark and RBRTE (Europe/Global crude oil price benchmark)"
+- identifying missing and duplicate values "16 missing value from RBRTE since they start later than RWTC"
 - removing non-data rows
 - renaming variables
 - converting data types
