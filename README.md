@@ -39,7 +39,7 @@ Primary dataset sourced from the **U.S. Energy Information Administration (EIA)*
 
 This notebook prepares monthly WTI and Brent crude oil price data for exploratory analysis and time series forecasting.
 
-"Crude_Oil_data_preprocessing_ipynb"
+"Crude_Oil_data_preprocessing.ipynb"
 
 The preprocessing steps include:
 - inspecting the raw dataset "RWTC (USA crude oil price benchmark and RBRTE (Europe/Global crude oil price benchmark)"
