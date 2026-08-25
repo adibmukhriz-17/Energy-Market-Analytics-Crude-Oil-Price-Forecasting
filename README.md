@@ -50,5 +50,42 @@ The preprocessing steps include:
 - checking chronological order
 - verifying monthly time-series continuity
 
+# Crude Oil Price EDA and Forecasting (R)
+
+This script explores monthly WTI and Brent crude oil prices through descriptive statistics and historical time-series analysis, before proceeding to forecasting.
+
+"Crude_Oil_EDA_Forecasting.R"
+
+The EDA steps completed include:
+- importing and validating the cleaned crude oil dataset
+- converting variables into appropriate R data types
+- creating monthly time-series objects for WTI and Brent
+- calculating descriptive statistics for both crude oil benchmarks
+- identifying historical minimum and maximum prices and their corresponding periods
+- visualizing historical WTI and Brent price movements
+- comparing WTI and Brent historical price trends
+
+<img width="1132" height="915" alt="image" src="https://github.com/user-attachments/assets/f32021d9-020a-4ac5-a0f9-09bb5093bcec" />
+
+Initial findings:
+- WTI recorded an average monthly price of **$48.60/barrel**, ranging from **$11.35 to $133.88**
+- Brent recorded an average monthly price of **$51.42/barrel**, ranging from **$9.82 to $132.72**
+- both benchmarks reached their historical minimum in **December 1998**
+- WTI reached its historical maximum in **June 2008**, while Brent peaked in **July 2008**
+- WTI and Brent generally follow similar historical price movements, although periods of price divergence are visible
+- price movements appear more volatile from the 2000s onward, motivating further volatility and time-series analysis
+
+The next steps include:
+- calculating monthly price changes and percentage returns
+- analyzing moving averages and long-term trends
+- measuring rolling price volatility
+- analyzing the Brent-WTI price spread and correlation
+- investigating seasonality and time-series decomposition
+- testing stationarity and examining ACF/PACF
+- creating training and testing datasets
+- developing and comparing forecasting models (benchmark, ETS, and ARIMA)
+- evaluating forecasting performance
+
 ## Project Status
-🚧 In Progress — Data preprocessing completed, EDA next.
+
+🚧 In Progress — Initial EDA completed, price changes and returns analysis next.
